@@ -1,0 +1,12 @@
+# message.yml
+# supplement files for loan_calculator.rb
+
+welcome: "Welcome to the loan calculator!"
+loan_amount: "Please Enter your total loan amount: "
+valid_number: "Must enter a positive number other than zero."
+apr: "What is your Annual Percentage Rate (APR)?"
+example_apr: "Example: 5 for 5% or 2.5 for 2.5%"
+duration: "What is the loan duration (in years)?"
+ta-da!: "***************************************************"
+continue: "Do you want another loan calculation? (Y/N)"
+thank_you_bye: "*Thank you for using the loan calculator!*\n=> Goodbye!"
