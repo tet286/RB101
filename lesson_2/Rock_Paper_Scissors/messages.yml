@@ -1,0 +1,20 @@
+# message.yml
+# supplement files for RPS_bonus.rb
+
+welcome: "            Welcome to Rock Paper Scissors Lizard Spock!"
+game_rule: "                             THE RULE"
+game_rule1: "Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard\n=> Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard\n=> Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock\n=> and as it always has, Rock crushes Scissors."
+game_rule2: "Remember, whoever reaches 3 wins first become the Grand Winner, good luck!"
+choice: "Choose one:\n=> R,r - Rock\n=> P,p - Paper\n=> S,s - Scissors\n=> L,l - Lizard\n=> SP, sp - Spock"
+valid_choice: "That's not a valid choice."
+you: "You chose:"
+computer: "Computer chose:"
+win: "You won!"
+lose: "Computer won!"
+tie: "It's a tie!"
+your_score: "Your score is: "
+computer_score: "The computer score is: "
+next_round: "Ready for the next round? (Y/N)"
+thank_you_bye: "Thank you for playing. Goodbye!"
+banner1: "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+"
+banner2: "--------------------------------------------------------------------------"
