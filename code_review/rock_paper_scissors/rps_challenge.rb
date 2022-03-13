@@ -1,4 +1,5 @@
 # rps_challenge.rb
+# Comments incorporated
 
 require 'yaml'
 MESSAGES = YAML.load_file('messages.yml')
@@ -108,7 +109,7 @@ loop do
   display_result(usr_data, computer_data, choice, computer_choice)
 
   usr_score = score_keep(usr_data, computer_choice, usr_score)
-  computer_score = score_keep(computer_data,choice, computer_score)
+  computer_score = score_keep(computer_data, choice, computer_score)
 
   display_score(usr_score, computer_score)
 
@@ -136,4 +137,3 @@ end
 prompt('banner1')
 prompt('thank_you_bye')
 prompt('banner1')
-
