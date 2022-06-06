@@ -1,0 +1,15 @@
+# countdown.rb
+
+def decrease(counter)
+  counter -= 1
+end
+
+counter = 10
+
+10.times do
+  puts counter
+  # decrease(counter)
+  counter = decrease(counter)
+end
+
+puts 'LAUNCH!'

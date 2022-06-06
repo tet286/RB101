@@ -4,8 +4,8 @@
 # do not use Array#include? method
 
 def include?(array,value)
+  return true if array.count(value) > 0
   false
-  true if array.count(value) > 0
 end
 
 p include?([1,2,3,4,5], 3) == true
